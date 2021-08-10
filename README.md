@@ -1,4 +1,4 @@
-# REST API server using ExpressJS and connecting with PosgreSQL using Sequelize
+# REST API server using ExpressJS and connecting with PostgreSQL using Sequelize
 
 ## Steps to run: 
   1. `npm i`
