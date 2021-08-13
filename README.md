@@ -4,17 +4,12 @@
   1. `npm i`
   2. `npm run start:dev`
 
-*Make sure your postgres server is running and you have the server configuration saved in `server/config/config.json` as such:*
-```json
-  {
-    "environment-name": {
-      "username": "your-postgres-username",
-      "password": "your-password",
-      "database": "your-db-name",
-      "host": "database-host",
-      "port": "db-port",
-      "dialect": "postgres | sql | ..."
-    }
-  }
-
+*Make sure your postgres server is running and you have the server configuration saved in your system's environment variables or in a `.env` file as such:*
+```bash
+DB_USER_NAME=your-postgres-username
+DB_USER_PASS=your-password
+DB_NAME=your-db-name
+DB_HOST=database-host
+DB_PORT=db-port
+DB_DIALECT=postgres | sql | ...
 ```
