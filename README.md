@@ -4,7 +4,7 @@
   1. `npm i`
   2. `npm run start:dev`
 
-*Make sure your postgres server is running and you have the server configuration saved in your system's environment variables or in a `.env` file as such:*
+*Make sure your postgres server is running and you have the server configuration saved in your system's environment variables or in a `.env` file(located at the root of the project) as such:*
 ```bash
 DB_USER_NAME=your-postgres-username
 DB_USER_PASS=your-password
